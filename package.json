@@ -1,0 +1,46 @@
+{
+  "name": "chartjs-plugin-title-click",
+  "version": "1.0.0",
+  "description": "Adds support for basic onClick and onHover events to the chartjs title",
+  "main": "src/chart.titleclick.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserify-shim": {
+    "chart.js": "global:Chart"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbinoDrought/chartjs-plugin-title-click.git"
+  },
+  "keywords": [
+    "chart.js"
+  ],
+  "author": "AlbinoDrought",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlbinoDrought/chartjs-plugin-title-click/issues"
+  },
+  "homepage": "https://github.com/AlbinoDrought/chartjs-plugin-title-click#readme",
+  "dependencies": {
+    "chart.js": "^2.5.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "browserify-shim": "^3.8.14",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
