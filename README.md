@@ -1,5 +1,7 @@
 # chartjs-plugin-title-click
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AlbinoDrought/chartjs-plugin-title-click.svg)](https://greenkeeper.io/)
+
 A simple title onClick/onHover plugin for Chart.js
 
 ## Configuration
