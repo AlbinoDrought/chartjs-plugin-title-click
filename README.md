@@ -15,6 +15,9 @@ To configure the title click plugin, add these options to your chart config:
         onHover: function(e, titleBlock) {
             console.log("Hovered title!");  
         },
+        onLeave: function(e, titleBlock) {
+            console.log("Leaved title!");  
+        },
     }
 }
 ```
