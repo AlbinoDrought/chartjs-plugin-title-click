@@ -36,6 +36,8 @@ var handleEvent = function(titleBlock, e) {
             // use e.native for backwards compatibility
             opts.onHover.call(me, e.native, me);
         }
+    } else if (type === 'mousemove' && opts.onLeave) {
+        opts.onLeave.call(me, e.native, me);
     }
 };
 
