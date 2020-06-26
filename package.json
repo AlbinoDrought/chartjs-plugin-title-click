@@ -1,6 +1,6 @@
 {
   "name": "chartjs-plugin-title-click",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Adds support for basic onClick and onHover events to the chartjs title",
   "main": "src/chart.titleclick.js",
   "scripts": {
